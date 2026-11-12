@@ -18,6 +18,14 @@
       "console": "integratedTerminal"
     },
     {
+      "name": "ElevenLabs: Text to Speech",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/nodes/elevenlabs/elevenlabs_tts.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
       "name": "Current file",
       "type": "debugpy",
       "request": "launch",
