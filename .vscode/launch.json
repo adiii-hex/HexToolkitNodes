@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Node: Giphy",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/nodes/giphy/giphy_node.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Node: ElevenLabs",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/nodes/elevenlabs/elevenlabs_node.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Current file",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
