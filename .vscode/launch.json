@@ -10,6 +10,14 @@
       "console": "integratedTerminal"
     },
     {
+      "name": "Giphy: Search",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/nodes/giphy/giphy_search.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
       "name": "Node: ElevenLabs",
       "type": "debugpy",
       "request": "launch",
